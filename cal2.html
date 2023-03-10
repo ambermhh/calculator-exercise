@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" id="num1" />
+    <input type="number" id="num2" />
+    <div class="buttons">
+    <button onclick="addition()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mult()">*</button>
+    <button onclick="div()">/</button>
+    </div>
+
+    <input type="number" id="result"/>
+
+
+    <script>
+      function addition() {
+        let x = document.getElementById("num1").value;
+
+        let y = document.getElementById("num2").value;
+
+        x = parseInt(x);
+
+        y = parseInt(y);
+
+        let z = x + y;
+
+        document.getElementById("result").value = z;
+      }
+      function sub() {
+        let x = document.getElementById("num1").value;
+
+        let y = document.getElementById("num2").value;
+
+        x = parseInt(x);
+
+        y = parseInt(y);
+
+        let z = x - y;
+
+        document.getElementById("result").value = z;
+      }
+      function mult() {
+        let x = document.getElementById("num1").value;
+
+        let y = document.getElementById("num2").value;
+
+        x = parseInt(x);
+
+        y = parseInt(y);
+
+        let z = x * y;
+
+        document.getElementById("result").value = z;
+      }
+      function div() {
+        let x = document.getElementById("num1").value;
+
+        let y = document.getElementById("num2").value;
+
+        x = parseInt(x);
+
+        y = parseInt(y);
+
+        let z = x / y;
+
+        document.getElementById("result").value = z;
+      }
+    </script>
+  </body>
+</html>
