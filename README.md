@@ -1,3 +1,3 @@
 # calculator-exercise
-Calculator
-ambermhh.github.io/index.html
+
+ambermhh.github.io/calculator.html
